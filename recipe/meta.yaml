@@ -1,5 +1,5 @@
 {% set name = "unsloth" %}
-{% set version = "2025.8.6" %}
+{% set version = "2025.8.8" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/unsloth-{{ version }}.tar.gz
-  sha256: d59aa0a11489678fed982c519da2a8e431af2beed97ff5fcf9804f345536591b
+  sha256: 4ec666c2d6b0c3d9d8a58684f70be7967d2ee6e352c223408fdea76dae243f30
 
 build:
   noarch: python
@@ -25,14 +25,14 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - unsloth_zoo >=2025.8.5
+    - unsloth_zoo >=2025.8.7
     - pytorch >=2.4.0
     - xformers >=0.0.27.post2
     - bitsandbytes
     - triton >=3.0.0
     - packaging
     - tyro
-    - transformers >=4.51.3,!=4.47.0,!=4.52.0,!=4.52.1,!=4.52.2,!=4.52.3,!=4.53.0
+    - transformers >=4.51.3,!=4.47.0,!=4.52.0,!=4.52.1,!=4.52.2,!=4.52.3,!=4.53.0,!=4.54.0,!=4.55.0,!=4.55.1
     - datasets >=3.4.1,<4.0.0
     - sentencepiece >=0.2.0
     - tqdm
