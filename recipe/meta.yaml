@@ -1,5 +1,5 @@
 {% set name = "unsloth" %}
-{% set version = "2025.9.11" %}
+{% set version = "2025.10.1" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/unsloth-{{ version }}.tar.gz
-  sha256: e598c6875c3bc404a12d5eabad82df60ebc862cad5a0228597790f84c0ea9af0
+  sha256: b013db99b1dd2642e4dcb05fed6b76c353d9b32499d98162936ebf5f720da37e
 
 build:
   noarch: python
@@ -25,7 +25,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - unsloth_zoo >=2025.9.13
+    - unsloth_zoo >=2025.10.1
     - pytorch >=2.4.0
     - xformers >=0.0.27.post2
     - bitsandbytes
