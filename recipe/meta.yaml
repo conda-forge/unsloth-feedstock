@@ -25,7 +25,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - unsloth_zoo >=2025.11.3
+    - unsloth_zoo >=2025.11.4
     - pytorch >=2.4.0
     - xformers >=0.0.27.post2
     - bitsandbytes
@@ -33,7 +33,7 @@ requirements:
     - packaging
     - tyro
     - transformers >=4.51.3,!=4.52.0,!=4.52.1,!=4.52.2,!=4.52.3,!=4.53.0,!=4.54.0,!=4.55.0,!=4.55.1,<=4.56.2
-    - datasets >=3.4.1,!=4.0.*,!=4.1.0
+    - datasets >=3.4.1,!=4.0.*,!=4.1.0,<4.4.0
     - sentencepiece >=0.2.0
     - tqdm
     - psutil
