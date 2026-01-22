@@ -1,5 +1,5 @@
 {% set name = "unsloth" %}
-{% set version = "2026.1.3" %}
+{% set version = "2026.1.4" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/unsloth-{{ version }}.tar.gz
-  sha256: 56ae3b74a74ec919beb1098691f110f2f3350355eaecdc2ac84d8d1a18322bfb
+  sha256: d1354da02b46b2bcbfab8f8291c6ad7f4837cb608a0e4d27f4bcc22e8b10bc59
 
 build:
   noarch: python
