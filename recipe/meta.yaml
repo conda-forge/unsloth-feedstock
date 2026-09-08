@@ -7,8 +7,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/unsloth-{{ version }}.tar.gz
-  sha256: c519ef9f1a5ce3f468eb196ff3906d88fc972667f4161f8d2630b7a8380817d1
+  url: https://github.com/unslothai/unsloth/archive/d90c0320664ef9812a1fb1d2a31f0977feaf7916.tar.gz
+  sha256: 2d3b4abf99c84e2a3ac5e14f006801d0e76ce0a3289cae3ead51a015330a10b1
 
 build:
   noarch: python
