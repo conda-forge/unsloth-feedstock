@@ -41,7 +41,7 @@ requirements:
     # huggingface
     - wheel >=0.42.0
     - packaging
-    - numpy
+    - numpy <2.4
     - tqdm
     - psutil
     - tyro
